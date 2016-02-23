@@ -1,0 +1,143 @@
+html {
+	box-sizing: border-box;
+	height: 100%;
+}
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+    transition: all 0.2s linear;
+}
+body.hidden {
+    opacity: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.contact-text {
+    font-family: 'brandon_grotesquelight';
+    font-size: 17px;
+}
+
+.typo-regular {
+    font-family: 'brandon_grotesque_regularRg';
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
+.sr-logo {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	margin-top: 20px;
+    z-index: 1000;
+}
+.sr-logo a {
+    text-decoration: none;
+    color: black;
+    font-family: 'brandon_grotesquemedium';
+    font-size: 54px;
+}
+
+.edge-link-side,
+.edge-link-bot {
+	display: inline-block;
+	color: black;
+	text-decoration: underline;
+    font-family: 'brandon_grotesque_regularRg';
+
+}
+.edge-link-side:hover,
+.edge-link-bot:hover {
+	font-family: 'brandon_grotesquemedium';
+}
+
+.edge-link-side {
+	position: absolute;
+	top: 49%;
+}
+
+.edge-link-bot {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -29px;
+	margin-bottom: 20px;
+}
+
+.rot270 {
+	-ms-transform: rotate(270deg); /* IE 9 */
+    -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+    transform: rotate(270deg);
+}
+.rot90 {
+	-ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+}
+
+.content {
+	width: 80%;
+	margin: 0 auto;
+    text-align: center;
+
+    position:relative;
+    overflow-y: auto;
+    transition: all 0.2s linear;
+}
+.content.hidden {
+    opacity: 0;
+}
+
+.col-13 {
+    display: inline-block;
+    width: 33%;
+    padding: 0px 14px;
+    vertical-align: top;
+}
+
+.thumbnail {
+    display: block;
+    width: 100%;
+    margin: 28px 0px;
+    text-decoration: none;
+}
+.thumbnail:hover .thumbnail-caption {
+    display:block;
+}
+
+.thumbnail-caption {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    color: black;
+    font-family: 'brandon_grotesquelight';
+    font-size: 20px;
+}
+
+.thumbnail-small {
+    height: 209px;
+}
+.thumbnail-small .thumbnail-caption {
+    line-height: 209px;
+}
+.thumbnail-medium {
+    height: 270px;
+}
+.thumbnail-medium .thumbnail-caption {
+    line-height: 270px;
+}
+.thumbnail-big {
+    height: 331px;
+}
+.thumbnail-big .thumbnail-caption {
+    line-height: 331px;
+}
