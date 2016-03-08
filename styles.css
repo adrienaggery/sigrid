@@ -134,7 +134,7 @@ body.hidden {
     display: none;
     width: 100%;
     height: 100%;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.6);
     text-align: center;
     color: black;
     font-family: 'brandon_grotesquelight';
