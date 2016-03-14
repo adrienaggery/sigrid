@@ -13,7 +13,7 @@
 
 #### Créer le rectangle dans work
 
-- Insérer ce code dans une des trois colonnes de la page `work.html`:
+- Insérer ce code dans une des trois colonnes de la page `index.html`:
 
 `<a href="projects/NOM_DU_FICHIER_DU_PROJET" class="thumbnail thumbnail-small" style="background: url('img/NOM_DE_LIMAGE') center; background-size: cover;"><div class="thumbnail-caption">LE TEXTE AU HOVER</div></a>`
 - Bien remplacer les textes en gras par les bonnes valeurs :)  
