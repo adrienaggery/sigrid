@@ -40,7 +40,8 @@ body.hidden {
 	left: 0;
 	right: 0;
 	text-align: center;
-	margin-top: 20px;
+	padding-top: 20px;
+    padding-bottom: 20px;
     z-index: 1000;
 }
 .sr-logo a {
@@ -163,4 +164,8 @@ body.hidden {
 }
 .thumbnail-big .thumbnail-caption {
     line-height: 331px;
+}
+
+.social-link {
+    color: black;
 }
